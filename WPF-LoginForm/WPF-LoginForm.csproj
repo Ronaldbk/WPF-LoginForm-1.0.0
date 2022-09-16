@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>WPF_LoginForm</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resource\key.png" />
+    <None Remove="Resource\logo.jpg" />
+    <None Remove="Resource\r logo.png" />
+    <None Remove="Resource\uu.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="ViewModel\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resource\key.png" />
+    <Resource Include="Resource\logo.jpg" />
+    <Resource Include="Resource\r logo.png" />
+    <Resource Include="Resource\uu.png" />
+  </ItemGroup>
+
+</Project>
